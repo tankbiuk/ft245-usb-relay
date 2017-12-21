@@ -28,3 +28,7 @@ Set the first 4 ouput lines (D0 to D3) to HIGH and the last 4 (D4 to D7) to LOW:
 
 Set the first 4 ouput lines (D0 to D3) to LOW and don't modify the last 4 (D4 to D7):
 > ft245-usb-relay -o 00 -m 0F
+
+## Links
+* libFTDI website: https://www.intra2net.com/en/developer/libftdi/
+* FT245R datasheet: http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT245R.pdf
