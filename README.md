@@ -1,5 +1,8 @@
 # ft245-usb-relay
 Command line tool for controlling FTDI FT245 based USB relay module.
+It works with the following devices:
+* Quimat 5V USB 4 Relay Module
+* ... Please let me know if you use this library with other devices!
 
 ## Requirements
 Install the following packages: 
