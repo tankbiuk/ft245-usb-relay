@@ -3,8 +3,8 @@ Command line tool for controlling FTDI FT245 based USB relay module.
 
 ## Requirements
 Install the following packages: 
-> libftdi1
-> libftdi1-dev
+* libftdi1
+* libftdi1-dev
 
 ## Compile
 > gcc -o ft245-usb-relay -lftdi1 ft245-usb-relay.c
