@@ -1,21 +1,23 @@
 # ft245-usb-relay
-Command line tool for controlling FTDI FT245 based USB relay module
+Command line tool for controlling FTDI FT245 based USB relay module.
 
 ## Requirements
-ftdi library: **libftdi1**, **libftdi1-dev** 
+Install the following packages: 
+> libftdi1
+> libftdi1-dev
 
 ## Compile
 > gcc -o ft245-usb-relay -lftdi1 ft245-usb-relay.c
 
 if, during the compilation, gcc cannot find the ftdi.h header file try to add the 
-option "-I" to the gcc command line.
+option **-I** to the gcc command line.
 
 In my case, the gcc command that works is:
 > gcc -o ft245-usb-relay -lftdi1 ft245-usb-relay.c -I /usr/include/libftdi1/
 
 ## Usage examples
 
-Print the software version and the current state of the output:
+Print the current state of the output:
 > ft245-usb-relay
 
 Set the output D0 to HIGH (1) (don't modify the other ouput)
