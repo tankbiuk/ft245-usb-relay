@@ -20,11 +20,11 @@ In my case, the gcc command that works is:
 Print the current state of the output:
 > ft245-usb-relay
 
-Set the output D0 to HIGH (1) (don't modify the other ouput)
-> ft245-usb-relay -d 0 -e 1
+Set the output D0 to HIGH (1) (don't modify the other ouput):
+> ft245-usb-relay -p 0 -e 1
 
-set the first 4 ouput lines (D0 to D3) to HIGH and the last 4 (D4 to D7) to LOW
+Set the first 4 ouput lines (D0 to D3) to HIGH and the last 4 (D4 to D7) to LOW:
 > ft245-usb-relay -o 0F
 
-set the first 4 ouput lines (D0 to D3) to LOW and don't modify the last 4 (D4 to D7)
+Set the first 4 ouput lines (D0 to D3) to LOW and don't modify the last 4 (D4 to D7):
 > ft245-usb-relay -o 00 -m 0F
