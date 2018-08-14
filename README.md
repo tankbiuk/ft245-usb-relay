@@ -50,7 +50,9 @@ Some user experienced problem when compiling with the above mentioned command, h
 > The following modification did the trick for me (the project compiled & linked):
 > $ gcc -o ft245-usb-relay -lftdi1 ft245-usb-relay.c $(pkg-config --cflags --libs libftdi1)
 
-Thanks to user @maehw for pointing this out!
+Thanks to user
+@maehw
+for pointing this out!
 
 ## Links
 * libFTDI website: https://www.intra2net.com/en/developer/libftdi/
